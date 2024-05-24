@@ -1,0 +1,3797 @@
+/* Common */
+
+@font-face {
+    font-family: Inter;
+    src: url(Inter-Regular.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    z-index: 2;
+    color: white;
+    font-family: Inter;
+}
+
+body {
+    background-color: #0B0B0B;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: Inter;
+}
+
+/* Header Part  */
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+}
+
+.navlogo {
+    width: 138px;
+    padding-left: 31px;
+}
+
+.navlink {
+    font-size: 12px;
+    font-weight: 700;
+    position: relative;
+    padding-left: 31px;
+    top: -60px;
+}
+
+.closebutton,
+.toggle {
+    display: none;
+    font-size: 2.5vw;
+    cursor: pointer;
+}
+
+
+
+
+/* Hero Section  */
+
+
+
+
+.herobg {
+    width: 100%;
+    height: 758px;
+    position: relative;
+    bottom: 138px;
+    z-index: 0;
+    background-image: url(Img\ Assets/Hero.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    /* This step is really important */
+    overflow: hidden;
+}
+
+.cyanblur1 {
+    position: absolute;
+    width: 60vw;
+    height: auto;
+    top: -25vw;
+    left: -20vw;
+    opacity: 0.7;
+}
+
+.purpleblur1 {
+    position: relative;
+    width: 60vw;
+    height: auto;
+    right: -35vw;
+    align-self: center;
+    opacity: 0.7;
+}
+
+.herobg .rey {
+    width: 42vw;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+.herobg .Linkedin {
+    height: 10vw;
+    width: auto;
+    position: absolute;
+    left: 56vw;
+    bottom: 22vw;
+    box-shadow: 0 10 45 -5 rgba(29, 28, 94, 50%);
+}
+
+.herobg .Instagram {
+    height: 7vw;
+    width: auto;
+    position: absolute;
+    left: 32vw;
+    bottom: 10vw;
+    box-shadow: 10 0 45 -5 rgba(94, 35, 115, 50%);
+}
+
+.herobg .Facebook {
+    height: 10vw;
+    width: auto;
+    bottom: 1vw;
+    left: 60vw;
+    position: absolute;
+    box-shadow: 10 0 45 -5 rgba(29, 28, 94, 50%);
+}
+
+.bold {
+    font-weight: 680;
+    font-size: 5vw;
+    position: absolute;
+}
+
+#one {
+    bottom: 28vw;
+    left: 24vw;
+}
+
+#six {
+    bottom: 6.5vw;
+    left: 69vw;
+    background: linear-gradient(to bottom, #41DBCB, #4977C3);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: var(-webkit-background-clip);
+}
+
+.semibold {
+    font-weight: 600;
+    font-size: 4.5vw;
+    position: absolute;
+}
+
+#four {
+    bottom: 18.5vw;
+    left: 58vw;
+}
+
+.medium {
+    font-weight: 500;
+    font-size: 4vw;
+    position: absolute;
+}
+
+#two {
+    bottom: 23vw;
+    left: 30vw;
+}
+
+#three {
+    bottom: 18.5vw;
+    left: 42vw;
+}
+
+#five {
+    bottom: 13vw;
+    left: 65vw;
+}
+
+
+
+
+/* Timeline Section  */
+
+
+
+
+.timelinesection {
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 8rem;
+}
+
+.blur {
+    position: absolute;
+    width: 100%;
+    height: 150vw;
+    overflow: hidden;
+}
+
+.purpleblur2 {
+    position: absolute;
+    width: 80vw;
+    height: auto;
+    top: -5vw;
+    left: -40vw;
+    opacity: 0.7;
+}
+
+.cyanblur2 {
+    position: relative;
+    width: 70vw;
+    height: auto;
+    right: -75vw;
+    top: 36vw;
+    opacity: 0.65;
+}
+
+.title {
+    font-family: Inter;
+    font-size: 3.4375rem;
+    /*55*/
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    bottom: -2rem;
+    text-shadow: 0 0 35px rgba(15, 181, 191, 50%);
+    background: linear-gradient(to bottom, #41DBCB, #4977C3);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: var(-webkit-background-clip);
+    z-index: 5;
+    display: block;
+    height: 5rem;
+}
+
+.heropara {
+    font-size: 1rem;
+    margin-left: 19%;
+    margin-right: 19%;
+    text-align: center;
+    position: relative;
+    bottom: -4rem;
+    z-index: 5;
+    line-height: 25px;
+    display: block;
+    height: 2.25rem;
+}
+
+.heroparaend {
+    font-size: 1rem;
+    margin-left: 19%;
+    margin-right: 19%;
+    text-align: center;
+    position: relative;
+    bottom: -15rem;
+    z-index: 5;
+    line-height: 25px;
+    display: block;
+    height: 2.25rem;
+}
+
+.timeline {
+    position: relative;
+    top: 10rem;
+    width: 70%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* padding-left: 50px; */
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5vw;
+    padding-right: 10vw;
+}
+
+/* Middle Line  */
+
+
+.timeline ul li .middlelineleft {
+    position: absolute;
+    width: 2px;
+    height: 56rem;
+    background-color: #ffffff;
+    left: 34.15vw;
+    top: -60px;
+    z-index: 8;
+}
+
+
+/* Side Line 1  */
+
+
+.timeline ul li .sideline1right {
+    position: absolute;
+    width: 5rem;
+    height: 2px;
+    background-color: #ffffff;
+    right: 29vw;
+    top: -50px;
+}
+
+.timeline ul li .sideline1left {
+    position: absolute;
+    width: 5rem;
+    height: 2px;
+    background-color: #ffffff;
+    left: 29vw;
+    top: -50px;
+}
+
+/* Side Line 2 */
+
+
+.timeline ul li .sideline2right {
+    position: absolute;
+    width: 2px;
+    height: 3.14rem;
+    background-color: #ffffff;
+    right: 25.4vw;
+    top: -50px;
+    z-index: 4;
+}
+
+.timeline ul li .sideline2left {
+    position: absolute;
+    width: 2px;
+    height: 3.14rem;
+    background-color: #ffffff;
+    left: 25.4vw;
+    top: -50px;
+}
+
+/* List Settings  */
+
+
+.timeline ul {
+    list-style: none;
+    position: relative;
+    right: -6vw;
+}
+
+.timeline ul li {
+    width: 37%;
+    height: auto;
+    padding: 35px 30px 35px 30px;
+    background-color: #121A28;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    z-index: 5;
+}
+
+.timeline ul li:nth-child(odd) {
+    float: left;
+    clear: right;
+    transform: translateX(1rem);
+}
+
+.timeline ul li:nth-child(even) {
+    float: right;
+    clear: left;
+    transform: translateX(0rem);
+}
+
+.timeline ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.timeline ul li h3 {
+    font-size: 18px;
+    color: white;
+}
+
+.timeline ul li p {
+    font-size: 17px;
+    color: white;
+    line-height: 25px;
+    margin-top: 8px;
+}
+
+/* List Date  */
+
+
+ul li .dateleft {
+    position: absolute;
+    top: -70px;
+    right: 0px;
+    width: 126px;
+    height: 40px;
+    border-radius: 15px;
+    background: linear-gradient(to right, #41DBCB, #4977C3);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Inter;
+    padding-top: 5px;
+    z-index: 5;
+}
+
+ul li .dateright {
+    position: absolute;
+    top: -70px;
+    left: 0px;
+    width: 126px;
+    height: 40px;
+    border-radius: 15px;
+    background: linear-gradient(to right, #41DBCB, #4977C3);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Inter;
+    padding-top: 5px;
+    z-index: 5;
+}
+
+/* Circle  */
+
+
+.timeline ul li .circleleft {
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(to right, #41DBCB, #4977C3);
+    box-shadow: 0 0 35px rgba(15, 181, 191, 50%);
+    border-radius: 50%;
+    position: absolute;
+    top: -4rem;
+    right: -5.56rem;
+    z-index: 9;
+}
+
+.timeline ul li .circleright {
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(to right, #41DBCB, #4977C3);
+    box-shadow: 0 0 35px rgba(15, 181, 191, 50%);
+    border-radius: 50%;
+    position: absolute;
+    top: -4rem;
+    left: -5.25rem;
+    z-index: 9;
+}
+
+
+
+/* Skill Section  */
+
+
+
+
+.skillsection {
+    width: 100%;
+    height: 50vw;
+    position: relative;
+    bottom: -5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    padding-top: 80px;
+}
+
+.blur2 {
+    position: absolute;
+    width: 100%;
+    height: 160vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.purpleblur3 {
+    position: absolute;
+    width: 58vw;
+    height: auto;
+    left: -30vw;
+    opacity: 0.7;
+}
+
+.title2 {
+    font-family: Inter;
+    font-size: 3.4375rem;
+    /*55*/
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    bottom: -2rem;
+    text-shadow: 0 0 35px rgba(15, 181, 191, 50%);
+    background: linear-gradient(to bottom, #41DBCB, #4977C3);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: var(-webkit-background-clip);
+    z-index: 5;
+    display: block;
+    height: 5rem;
+    width: 100%;
+}
+
+.skillcontainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 2rem;
+    padding-top: 5rem;
+}
+
+.skill1,
+.skill2 {
+    width: 32vw;
+    height: 24vw;
+    border-radius: 15px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding-top: 4vw;
+    margin-bottom: 20px;
+}
+
+.portfolio {
+    width: 16vw;
+    height: 4vw;
+    border-radius: 30px;
+    background: linear-gradient(to right, #41DBCB, #4977C3);
+    box-shadow: 0 0 60px -2px rgba(15, 181, 191, 50%);
+    font-weight: 700;
+    font-size: 1.5vw;
+}
+
+
+
+/* Vision Section  */
+
+
+
+
+.visionsection {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #121A28;
+    position: relative;
+    box-shadow: -5px 0 50px 0px black;
+    bottom: -8rem;
+    overflow: hidden;
+    z-index: 5;
+}
+
+.visioncontent {
+    width: 65%;
+}
+
+.title3 {
+    font-family: Inter;
+    font-size: 3.5vw;
+    /*55*/
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 0 0 35px rgba(15, 181, 191, 50%);
+    background: linear-gradient(to bottom, #ffffff, #ffffff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: var(-webkit-background-clip);
+    z-index: 5;
+    height: 5rem;
+    padding-top: 2.5vw;
+    padding-bottom: 1.7vw;
+}
+
+.visionpara {
+    font-size: 1.3vw;
+    font-weight: 375;
+    padding-bottom: 2.1vw;
+    line-height: 2vw;
+}
+
+.visionh3 {
+    font-weight: 800;
+    font-size: 1.3vw;
+    padding-bottom: 1.3vw;
+    padding-top: 0.8vw;
+}
+
+.socialmediatheme {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1vw;
+    padding-bottom: 2.1vw;
+}
+
+.socialthemeicons1 {
+    height: 3.5vw;
+    width: auto;
+}
+
+.socialthemeicons2 {
+    height: 4.6vw;
+    width: auto;
+    position: relative;
+    bottom: 0.2vw;
+}
+
+.socialthemeicons3 {
+    height: 3.5vw;
+    width: auto;
+}
+
+.visiondecor1 {
+    position: absolute;
+    height: 23vw;
+    right: -5vw;
+}
+
+.visiondecor2 {
+    position: absolute;
+    height: 22vw;
+    left: -8vw;
+    top: 20vw;
+}
+
+.visiondecor3 {
+    position: absolute;
+    height: 22vw;
+    right: -5vw;
+    bottom: -2vw;
+}
+
+
+
+/* Project Section  */
+
+
+
+
+.projectsection {
+    width: 100%;
+    height: 70vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    bottom: -8vw;
+}
+
+.purpleblur4 {
+    position: absolute;
+    width: 58vw;
+    height: auto;
+    right: -30vw;
+    top: -30vw;
+    opacity: 0.7;
+}
+
+.cyanblur4 {
+    position: absolute;
+    width: 58vw;
+    height: auto;
+    left: -30vw;
+    bottom: -20vw;
+    opacity: 0.7;
+}
+
+.title4 {
+    font-family: Inter;
+    font-size: 3.5vw;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 0 0 35px rgba(15, 181, 191, 50%);
+    background: linear-gradient(to bottom, #41DBCB, #4977C3);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: var(-webkit-background-clip);
+    z-index: 5;
+    padding-bottom: 2vw;
+    width: 100%;
+}
+
+.project1,
+.project2 {
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3vw;
+}
+
+.project1 {
+    padding-bottom: 2vw;
+}
+
+.project2 {
+    padding-bottom: 4vw;
+}
+
+.projectcontent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 2vw;
+}
+
+.projectname {
+    font-size: 2.5vw;
+    font-weight: 650;
+    text-shadow: 0 0 35px rgba(15, 181, 191, 50%);
+}
+
+.projectpara {
+    font-size: 1.3vw;
+    font-weight: 300;
+    line-height: 2.1vw;
+}
+
+.freak {
+    height: 24vw;
+    width: auto;
+}
+
+.reyventure {
+    height: 24vw;
+    width: auto;
+}
+
+
+
+/* Watch Section  */
+
+
+
+
+.watchsection {
+    background-color: #121A28;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: -5px 0 50px 0px black;
+    z-index: 12;
+}
+
+.myvideos {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 5vw;
+    padding-top: 2vw;
+}
+
+.title5 {
+    font-family: Inter;
+    font-size: 3.5vw;
+    /*55*/
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 0 0 35px rgba(15, 181, 191, 50%);
+    background: linear-gradient(to bottom, #ffffff, #ffffff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: var(-webkit-background-clip);
+    padding-top: 4vw;
+    padding-bottom: 2vw;
+}
+
+iframe {
+    width: 27vw;
+    height: 16vw;
+    border-radius: 15px;
+    box-shadow: -5px 0 25px 0px rgba(255, 255, 255, 0.073);
+}
+
+
+
+/* Contact Section  */
+
+
+
+
+.contactsection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 10;
+    position: relative;
+    bottom: 0vw;
+}
+
+.title6 {
+    font-family: Inter;
+    font-size: 3.5vw;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 0 0 35px rgba(15, 181, 191, 50%);
+    background: linear-gradient(to bottom, #41DBCB, #4977C3);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: var(-webkit-background-clip);
+    z-index: 5;
+    padding-bottom: 2vw;
+    padding-top: 4vw;
+    width: 100%;
+}
+
+.emailid {
+    font-size: 1.5vw;
+}
+
+.contactform {
+    width: 10vw;
+    height: 3vw;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 0 0 60px -2px rgba(15, 181, 191, 50%);
+    font-weight: 700;
+    font-size: 1vw;
+    margin-bottom: 5vw;
+}
+
+.buttontext {
+    color: #000000;
+}
+
+.blur3 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.purpleblur5 {
+    position: absolute;
+    width: 58vw;
+    height: auto;
+    left: -30vw;
+    opacity: 0.7;
+}
+
+.cyanblur5 {
+    position: absolute;
+    width: 58vw;
+    height: auto;
+    right: -30vw;
+    bottom: 0vw;
+    opacity: 0.7;
+}
+
+
+
+/* Footer  */
+
+
+
+
+footer {
+    background-color: #121A28;
+    height: 9vw;
+    width: 100%;
+    box-shadow: -10px 10px 60px 0px black;
+    position: relative;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footercontent {
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+/* Media Query Started */
+@media (min-width:1427px) and (max-width:1469px) {
+    .timeline ul li .circleleft {
+        right: -4.2rem
+    }
+
+    .timeline ul li .circleright {
+        left: -4.2rem
+    }
+
+    .timeline ul li .middlelineleft {
+        position: absolute;
+        width: 2px;
+        height: 58rem;
+        left: 34.25vw;
+        top: -60px;
+    }
+}
+
+@media (min-width:1370px) and (max-width:1427px) {
+    .timeline ul li .circleleft {
+        right: -4.2rem
+    }
+
+    .timeline ul li .circleright {
+        left: -4.2rem
+    }
+
+    .timeline ul li .middlelineleft {
+        position: absolute;
+        width: 2px;
+        height: 60rem;
+        left: 34.25vw;
+        top: -60px;
+    }
+
+}
+
+@media (min-width:1230px) and (max-width:1370px) {
+
+    /* Hero Section */
+
+    .herobg .rey {
+        width: 52vw;
+    }
+
+    .herobg .Linkedin {
+        bottom: 30vw;
+        left: 60vw;
+        height: 12vw;
+    }
+
+    .herobg .Instagram {
+        bottom: 14vw;
+        left: 30vw;
+        height: 9vw;
+    }
+
+    .herobg .Facebook {
+        bottom: 2vw;
+        left: 64vw;
+        height: 12vw;
+    }
+
+    #one {
+        bottom: 32vw;
+        left: 25vw;
+    }
+
+    #two {
+        bottom: 27vw;
+        left: 30vw;
+    }
+
+    #three {
+        bottom: 23vw;
+        left: 41vw;
+    }
+
+    #four {
+        bottom: 23vw;
+        left: 60vw;
+    }
+
+    #five {
+        bottom: 18vw;
+        left: 68vw;
+    }
+
+    #six {
+        bottom: 12vw;
+        left: 70vw;
+    }
+
+    /* Timeline Section  */
+
+    .cyanblur2 {
+        position: relative;
+        width: 70vw;
+        height: auto;
+        right: -75vw;
+        top: 45vw;
+        opacity: 0.65;
+    }
+
+    .timeline ul li .circleleft {
+        right: -4rem
+    }
+
+    .timeline ul li .circleright {
+        left: -4rem
+    }
+
+    ul li .dateleft {
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        position: absolute;
+        right: 0;
+        font-size: 20px;
+    }
+
+    ul li .dateright {
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        position: absolute;
+        left: 0;
+        font-size: 20px;
+    }
+
+    .timeline ul li h3 {
+        font-size: 16px;
+        color: white;
+    }
+
+    .timeline ul li p {
+        font-size: 15px;
+        color: white;
+        line-height: 25px;
+        margin-top: 8px;
+    }
+
+    .timeline ul li .middlelineleft {
+        position: absolute;
+        width: 2px;
+        height: 56rem;
+        left: 34.25vw;
+        top: -60px;
+    }
+
+    /* Skill Section  */
+
+}
+
+@media (min-width:1024px) and (max-width:1230px) {
+
+    /* Hero Section */
+
+    .herobg .rey {
+        width: 52vw;
+    }
+
+    .herobg .Linkedin {
+        bottom: 30vw;
+        left: 60vw;
+        height: 12vw;
+    }
+
+    .herobg .Instagram {
+        bottom: 14vw;
+        left: 30vw;
+        height: 9vw;
+    }
+
+    .herobg .Facebook {
+        bottom: 2vw;
+        left: 64vw;
+        height: 12vw;
+    }
+
+    #one {
+        bottom: 32vw;
+        left: 25vw;
+    }
+
+    #two {
+        bottom: 27vw;
+        left: 30vw;
+    }
+
+    #three {
+        bottom: 23vw;
+        left: 41vw;
+    }
+
+    #four {
+        bottom: 23vw;
+        left: 60vw;
+    }
+
+    #five {
+        bottom: 18vw;
+        left: 68vw;
+    }
+
+    #six {
+        bottom: 12vw;
+        left: 70vw;
+    }
+
+    /* Timeline Section  */
+
+    .cyanblur2 {
+        position: relative;
+        width: 70vw;
+        height: auto;
+        right: -75vw;
+        top: 48vw;
+        opacity: 0.65;
+    }
+
+    .timeline ul li .circleleft {
+        right: -3rem
+    }
+
+    .timeline ul li .circleright {
+        left: -3rem
+    }
+
+    ul li .dateleft {
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        position: absolute;
+        right: 0;
+        font-size: 20px;
+    }
+
+    ul li .dateright {
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        position: absolute;
+        left: 0;
+        font-size: 20px;
+    }
+
+    .timeline ul li h3 {
+        font-size: 16px;
+        color: white;
+    }
+
+    .timeline ul li p {
+        font-size: 15px;
+        color: white;
+        line-height: 25px;
+        margin-top: 8px;
+    }
+
+    .timeline ul li .middlelineleft {
+        position: absolute;
+        width: 2px;
+        height: 60rem;
+        left: 34.25vw;
+        top: -60px;
+    }
+
+    .timeline ul li .sideline1right {
+        position: absolute;
+        width: 4rem;
+        height: 2px;
+        background-color: #ffffff;
+        right: 29vw;
+        top: -50px;
+    }
+
+    .timeline ul li .sideline1left {
+        position: absolute;
+        width: 4rem;
+        height: 2px;
+        left: 29vw;
+        top: -50px;
+    }
+
+    /* Skill Section  */
+
+    .skillsection {
+        bottom: -5rem;
+        height: 57vw;
+    }
+
+    /* Project Section  */
+
+    .projectsection {
+        height: 80vw;
+    }
+
+}
+
+@media (min-width:957px) and (max-width:1024px) {
+
+    /* Hero Section */
+
+    .herobg .rey {
+        width: 60vw;
+    }
+
+    .herobg .Linkedin {
+        bottom: 33vw;
+        left: 62vw;
+        height: 15vw;
+    }
+
+    .herobg .Instagram {
+        bottom: 16vw;
+        left: 28vw;
+        height: 11vw;
+    }
+
+    .herobg .Facebook {
+        bottom: 2vw;
+        left: 67vw;
+        height: 15vw;
+    }
+
+    #one {
+        bottom: 36vw;
+        left: 20vw;
+        font-size: 6.5vw;
+    }
+
+    #two {
+        bottom: 30vw;
+        left: 26vw;
+        font-size: 4.6vw;
+    }
+
+    #three {
+        bottom: 25vw;
+        left: 39vw;
+        font-size: 4.6vw;
+    }
+
+    #four {
+        bottom: 25vw;
+        left: 63vw;
+        font-size: 5vw;
+    }
+
+    #five {
+        bottom: 19vw;
+        left: 71vw;
+        font-size: 4.6vw;
+    }
+
+    #six {
+        bottom: 11.5vw;
+        left: 77vw;
+        font-size: 6vw;
+    }
+
+    /* Timeline Section  */
+
+    .purpleblur2 {
+        position: absolute;
+        width: 80vw;
+        height: auto;
+        top: -5vw;
+        left: -40vw;
+        opacity: 0.7;
+    }
+
+    .cyanblur2 {
+        position: relative;
+        width: 80vw;
+        height: auto;
+        right: -75vw;
+        top: 53vw;
+        opacity: 0.65;
+    }
+
+    .timeline ul li .circleleft {
+        right: -4rem;
+        height: 33px;
+        width: 33px;
+    }
+
+    .timeline ul li .circleright {
+        left: -4rem;
+        height: 33px;
+        width: 33px;
+    }
+
+    /* .timeline ul li .middlelineright {
+        position: absolute;
+        width: 2px;
+        height: 22rem;
+        right: 34.5vw;
+        top: -60px;
+    } */
+    .timeline ul li .middlelineleft {
+        position: absolute;
+        width: 2px;
+        height: 50rem;
+        left: 38vw;
+        top: -60px;
+    }
+
+    .timeline ul li h3 {
+        font-size: 14px;
+        color: white;
+    }
+
+    .timeline ul li p {
+        font-size: 12.5px;
+        color: white;
+        line-height: 20px;
+        margin-top: 8px;
+    }
+
+    ul li .dateleft {
+        width: 80px;
+        height: 25px;
+        border-radius: 10px;
+        font-size: 16px;
+    }
+
+    ul li .dateright {
+        width: 80px;
+        height: 25px;
+        border-radius: 10px;
+        font-size: 16px;
+    }
+
+    .timeline ul li {
+        width: 40%;
+        height: auto;
+        padding: 30px 25px 30px 25px;
+        border-radius: 20px;
+        margin-bottom: 50px;
+    }
+
+    .timeline ul li:nth-child(odd) {
+        transform: translateX(-2rem);
+    }
+
+    .timeline ul li:nth-child(even) {
+        transform: translateX(2rem);
+    }
+
+    .timeline ul li .sideline1right {
+        position: absolute;
+        right: 30vw;
+        top: -50px;
+    }
+
+    .timeline ul li .sideline1left {
+        position: absolute;
+        left: 30vw;
+        top: -50px;
+    }
+
+    .timeline ul li .sideline2right {
+        position: absolute;
+        right: 29vw;
+        top: -50px;
+    }
+
+    .timeline ul li .sideline2left {
+        position: absolute;
+        left: 29vw;
+        top: -50px;
+    }
+
+    /* Skill Section  */
+
+    .skillsection {
+        bottom: -5rem;
+        height: 60vw;
+    }
+
+    /* Project Section  */
+
+    .projectsection {
+        height: 80vw;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:957px) {
+
+    /* Hero Section */
+
+    .herobg {
+        height: 680px;
+    }
+
+    .cyanblur1 {
+        width: 80vw;
+        top: -30vw;
+    }
+
+    .purpleblur1 {
+        width: 80vw;
+        right: -30vw;
+    }
+
+    .herobg .rey {
+        width: 68vw;
+    }
+
+    .herobg .Linkedin {
+        bottom: 38vw;
+        left: 62vw;
+        height: 15vw;
+    }
+
+    .herobg .Instagram {
+        bottom: 19vw;
+        left: 28vw;
+        height: 11vw;
+    }
+
+    .herobg .Facebook {
+        bottom: 2vw;
+        left: 70vw;
+        height: 15vw;
+    }
+
+    #one {
+        bottom: 43vw;
+        left: 20vw;
+        font-size: 6.5vw;
+    }
+
+    #two {
+        bottom: 36.5vw;
+        left: 26vw;
+        font-size: 4.6vw;
+    }
+
+    #three {
+        bottom: 31.5vw;
+        left: 39vw;
+        font-size: 4.6vw;
+    }
+
+    #four {
+        bottom: 31.5vw;
+        left: 63vw;
+        font-size: 5vw;
+    }
+
+    #five {
+        bottom: 25vw;
+        left: 71vw;
+        font-size: 4.6vw;
+    }
+
+    #six {
+        bottom: 17vw;
+        left: 77vw;
+        font-size: 6vw;
+    }
+
+    /* Timeline Section  */
+
+    .purpleblur2 {
+        position: absolute;
+        width: 100vw;
+        height: auto;
+        top: 5vw;
+        left: -55vw;
+        opacity: 0.7;
+    }
+
+    .cyanblur2 {
+        position: relative;
+        width: 100vw;
+        height: auto;
+        right: -70vw;
+        top: 55vw;
+        opacity: 0.65;
+    }
+
+    .timeline ul li .circleleft {
+        right: -3.5rem;
+        height: 33px;
+        width: 33px;
+    }
+
+    .timeline ul li .circleright {
+        left: -4rem;
+        height: 33px;
+        width: 33px;
+    }
+
+    /* .timeline ul li .middlelineright {
+        position: absolute;
+        width: 2px;
+        height: 22rem;
+        right: 34.5vw;
+        top: -60px;
+    } */
+    .timeline ul li .middlelineleft {
+        position: absolute;
+        width: 2px;
+        height: 53rem;
+        left: 38vw;
+        top: -60px;
+    }
+
+    .timeline ul li h3 {
+        font-size: 14px;
+        color: white;
+    }
+
+    .timeline ul li p {
+        font-size: 12.5px;
+        color: white;
+        line-height: 20px;
+        margin-top: 8px;
+    }
+
+    ul li .dateleft {
+        width: 80px;
+        height: 25px;
+        border-radius: 10px;
+        font-size: 16px;
+    }
+
+    ul li .dateright {
+        width: 80px;
+        height: 25px;
+        border-radius: 10px;
+        font-size: 16px;
+    }
+
+    .timeline ul li {
+        width: 40%;
+        height: auto;
+        padding: 30px 25px 30px 25px;
+        border-radius: 20px;
+        margin-bottom: 50px;
+    }
+
+    .timeline ul li:nth-child(odd) {
+        transform: translateX(-2rem);
+    }
+
+    .timeline ul li:nth-child(even) {
+        transform: translateX(2rem);
+    }
+
+    .timeline ul li .sideline1right {
+        position: absolute;
+        right: 30vw;
+        top: -50px;
+    }
+
+    .timeline ul li .sideline1left {
+        position: absolute;
+        left: 30vw;
+        top: -50px;
+    }
+
+    .timeline ul li .sideline2right {
+        position: absolute;
+        right: 29vw;
+        top: -50px;
+    }
+
+    .timeline ul li .sideline2left {
+        position: absolute;
+        left: 29vw;
+        top: -50px;
+    }
+
+    /* Skill Section  */
+
+    .purpleblur3 {
+        position: absolute;
+        width: 64vw;
+        height: auto;
+        left: -35vw;
+        opacity: 0.7;
+    }
+
+    .skillsection {
+        bottom: -8rem;
+        height: 70vw;
+    }
+
+    .title2 {
+        font-size: 3rem;
+    }
+
+    .skillcontainer {
+        padding-top: 4rem;
+    }
+
+    .portfolio {
+        width: 20vw;
+        height: 5vw;
+        font-size: 1.7vw;
+    }
+
+    /* Project Section  */
+
+    .projectsection {
+        height: 75vw;
+        bottom: -2vw;
+    }
+
+}
+
+@media (min-width:636px) and (max-width:768px) {
+
+    /* Header  */
+
+    /* .menu {
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-color: #121A28;
+        width: 100%;
+        height: 100%;
+        padding: 7rem 1.5rem 2.5rem 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        transition: left .4s;
+        z-index: 99;
+    }
+
+    .navlogo {
+        visibility: hidden;
+    }
+
+    .navlink {
+        display: flex;
+        flex-direction: column;
+        column-gap: 1rem;
+    }
+
+    #fourth {
+        margin-top: -40vw;
+    } */
+
+    /* Hero Section */
+
+    .herobg {
+        height: 630px;
+        bottom: 160px;
+    }
+
+    .cyanblur1 {
+        width: 80vw;
+        top: -30vw;
+    }
+
+    .purpleblur1 {
+        width: 80vw;
+        right: -30vw;
+    }
+
+    .herobg .rey {
+        width: 75vw;
+    }
+
+    .herobg .Linkedin {
+        bottom: 38vw;
+        left: 62vw;
+        height: 15vw;
+    }
+
+    .herobg .Instagram {
+        bottom: 19vw;
+        left: 28vw;
+        height: 11vw;
+    }
+
+    .herobg .Facebook {
+        bottom: 2vw;
+        left: 70vw;
+        height: 15vw;
+    }
+
+    #one {
+        bottom: 43vw;
+        left: 20vw;
+        font-size: 6.5vw;
+    }
+
+    #two {
+        bottom: 36.5vw;
+        left: 26vw;
+        font-size: 4.6vw;
+    }
+
+    #three {
+        bottom: 31.5vw;
+        left: 39vw;
+        font-size: 4.6vw;
+    }
+
+    #four {
+        bottom: 31.5vw;
+        left: 63vw;
+        font-size: 5vw;
+    }
+
+    #five {
+        bottom: 25vw;
+        left: 71vw;
+        font-size: 4.6vw;
+    }
+
+    #six {
+        bottom: 17vw;
+        left: 77vw;
+        font-size: 6vw;
+    }
+
+    /* Timeline Section  */
+
+    .blur {
+        height: 250vw;
+    }
+
+    .purpleblur2 {
+        position: absolute;
+        width: 100vw;
+        height: auto;
+        top: 5vw;
+        left: -55vw;
+        opacity: 0.7;
+    }
+
+    .cyanblur2 {
+        position: relative;
+        width: 100vw;
+        height: auto;
+        right: -70vw;
+        top: 120vw;
+        opacity: 0.65;
+    }
+
+    .timeline {
+        width: 80%;
+    }
+
+    .timeline ul li {
+        width: 100%;
+        float: none;
+        clear: none;
+        margin-bottom: 120px;
+        padding: 20px;
+    }
+
+    .timeline ul li .middlelineleft {
+        left: -10vw;
+        height: 117vh;
+    }
+
+    .timeline ul li:nth-child(odd) {
+        transform: translateX(-1.6rem);
+    }
+
+    .timeline ul li:nth-child(even) {
+        transform: translateX(1rem);
+    }
+
+    .timeline ul li .circleright {
+        left: -12vw;
+        width: 25px;
+        height: 25px;
+    }
+
+    .timeline ul li .circleleft {
+        left: -12vw;
+        width: 25px;
+        height: 25px;
+    }
+
+    ul li .dateleft {
+        position: absolute;
+        top: -70px;
+        left: 0px;
+        width: 115px;
+        height: 37px;
+        border-radius: 15px;
+        padding-top: 5px;
+        font-size: 22px;
+    }
+
+    ul li .dateright {
+        position: absolute;
+        top: -70px;
+        left: 0px;
+        width: 115px;
+        height: 37px;
+        border-radius: 15px;
+        padding-top: 5px;
+        font-size: 22px;
+    }
+
+    .timeline ul li .sideline1right {
+        position: absolute;
+        left: -10vw;
+    }
+
+    .timeline ul li .sideline1left {
+        position: absolute;
+        left: -10vw;
+    }
+
+    .timeline ul li .sideline2right {
+        position: absolute;
+        left: 8vw;
+    }
+
+    .timeline ul li .sideline2left {
+        position: absolute;
+        left: 8vw;
+    }
+
+    /* Skill Section  */
+
+    .purpleblur3 {
+        position: absolute;
+        width: 75vw;
+        height: auto;
+        left: -40vw;
+        opacity: 0.7;
+    }
+
+    .skillsection {
+        bottom: -5rem;
+        height: 90vw;
+    }
+
+    .title2 {
+        font-size: 2.5rem;
+    }
+
+    .skillcontainer {
+        padding-top: 3rem;
+    }
+
+    .portfolio {
+        width: 24vw;
+        height: 6vw;
+        font-size: 2vw;
+    }
+
+    .button {
+        padding-top: 5vw;
+    }
+
+    .skill1,
+    .skill2 {
+        height: 27vw;
+        width: 35vw;
+    }
+
+    /* Vision Section  */
+
+    .visionsection {
+        bottom: -1rem;
+    }
+
+    .title3 {
+        font-size: 5vw;
+    }
+
+    /* Project Section  */
+
+    .projectsection {
+        height: 75vw;
+        bottom: -2vw;
+    }
+
+}
+
+@media (min-width:425px) and (max-width:636px) {
+
+    /* Hero Section */
+
+    .herobg {
+        height: 530px;
+        bottom: 180px;
+    }
+
+    .herobg .rey {
+        width: 85vw;
+    }
+
+    .cyanblur1 {
+        width: 105vw;
+        top: -45vw;
+        left: -40vw;
+    }
+
+    .purpleblur1 {
+        width: 105vw;
+        right: -45vw;
+    }
+
+    .herobg .Linkedin {
+        bottom: 45vw;
+        left: 65vw;
+        height: 19vw;
+    }
+
+    .herobg .Instagram {
+        bottom: 22vw;
+        left: 21vw;
+        height: 14vw;
+    }
+
+    .herobg .Facebook {
+        bottom: 2vw;
+        left: 73vw;
+        height: 19vw;
+    }
+
+    #one {
+        bottom: 55vw;
+        left: 17vw;
+        font-size: 7vw;
+    }
+
+    #two {
+        bottom: 48vw;
+        left: 22vw;
+        font-size: 5vw;
+    }
+
+    #three {
+        bottom: 41vw;
+        left: 38vw;
+        font-size: 5vw;
+    }
+
+    #four {
+        bottom: 41vw;
+        left: 64vw;
+        font-size: 5.5vw;
+    }
+
+    #five {
+        bottom: 34vw;
+        left: 71vw;
+        font-size: 4.6vw;
+    }
+
+    #six {
+        bottom: 26vw;
+        left: 77vw;
+        font-size: 6vw;
+    }
+
+    /* Timeline Section  */
+
+    .blur {
+        height: 400vw;
+    }
+
+    .purpleblur2 {
+        position: absolute;
+        width: 160vw;
+        height: auto;
+        top: 50vw;
+        left: -85vw;
+        opacity: 0.7;
+    }
+
+    .cyanblur2 {
+        position: relative;
+        width: 160vw;
+        height: auto;
+        right: -50vw;
+        top: 110vw;
+        opacity: 0.65;
+    }
+
+    .heropara {
+        font-size: 15px;
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+
+    .heroparaend {
+        font-size: 15px;
+        margin-left: 12%;
+        margin-right: 12%;
+        bottom: -20rem;
+    }
+
+    .timeline {
+        width: 80%;
+        top: 17rem;
+    }
+
+    .timeline ul {
+        right: -10vw;
+    }
+
+    .timeline ul li {
+        width: 80%;
+        float: none;
+        clear: none;
+        margin-bottom: 120px;
+        padding: 20px;
+    }
+
+    .timeline ul li .middlelineleft {
+        left: -10vw;
+        height: 165vh;
+    }
+
+    .timeline ul li:nth-child(odd) {
+        transform: translateX(-1.6rem);
+    }
+
+    .timeline ul li:nth-child(even) {
+        transform: translateX(-3rem);
+    }
+
+    .timeline ul li .circleright {
+        left: -13vw;
+        height: 25px;
+        width: 25px;
+    }
+
+    .timeline ul li .circleleft {
+        left: -12vw;
+        height: 25px;
+        width: 25px;
+    }
+
+    ul li .dateleft {
+        position: absolute;
+        top: -70px;
+        left: 0px;
+        width: 110px;
+        height: 35px;
+        border-radius: 15px;
+        padding-top: 5px;
+        font-size: 20px;
+    }
+
+    ul li .dateright {
+        position: absolute;
+        top: -70px;
+        left: 0px;
+        width: 110px;
+        height: 35px;
+        border-radius: 15px;
+        padding-top: 5px;
+        font-size: 20px;
+    }
+
+    .timeline ul li .sideline1right {
+        position: absolute;
+        left: -10vw;
+    }
+
+    .timeline ul li .sideline1left {
+        position: absolute;
+        left: -10vw;
+    }
+
+    .timeline ul li .sideline2right {
+        position: absolute;
+        left: 8vw;
+    }
+
+    .timeline ul li .sideline2left {
+        position: absolute;
+        left: 8vw;
+    }
+
+    .timeline ul li h3 {
+        font-size: 14px;
+    }
+
+    .timeline ul li p {
+        font-size: 13px;
+    }
+
+    /* Skill Section  */
+
+    .purpleblur3 {
+        position: absolute;
+        width: 180vw;
+        height: auto;
+        left: -100vw;
+        opacity: 0.7;
+    }
+
+    .skillsection {
+        bottom: -5rem;
+        height: 230vw;
+    }
+
+    .title2 {
+        font-size: 2rem;
+    }
+
+    .skillcontainer {
+        padding-top: 3rem;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2rem;
+    }
+
+    .portfolio {
+        width: 40vw;
+        height: 10vw;
+        font-size: 3.5vw;
+    }
+
+    .button {
+        padding-top: 10vw;
+    }
+
+    .skill1,
+    .skill2 {
+        height: 51vw;
+        width: 67vw;
+    }
+
+    /* Vision Section  */
+
+    .visionsection {
+        bottom: 1rem;
+    }
+
+    .visioncontent {
+        width: 65%;
+    }
+
+    .title3 {
+        font-size: 10vw;
+        padding-top: 8vw;
+        padding-bottom: 2vw;
+    }
+
+    .visionpara {
+        font-size: 2.7vw;
+        padding-bottom: 3.3vw;
+        line-height: 4vw;
+        position: relative;
+        top: -5vw;
+    }
+
+    .visionh3 {
+        font-size: 3vw;
+        padding-bottom: 2vw;
+        padding-top: 0.8vw;
+    }
+
+    .socialmediatheme {
+        column-gap: 1vw;
+        padding-bottom: 8vw;
+    }
+
+    .socialthemeicons1 {
+        height: 6.5vw;
+    }
+
+    .socialthemeicons2 {
+        height: 8vw;
+        bottom: 0.2vw;
+    }
+
+    .socialthemeicons3 {
+        height: 6.5vw;
+    }
+
+    .visiondecor1 {
+        height: 36vw;
+        right: -10vw;
+        top: -2vw;
+    }
+
+    .visiondecor2 {
+        height: 26vw;
+        left: -10vw;
+        top: 70vw;
+    }
+
+    .visiondecor3 {
+        height: 40vw;
+        right: -10vw;
+        bottom: -2vw;
+    }
+
+    /* Project Section  */
+
+    .projectsection {
+        height: 260vw;
+        bottom: 4vw;
+    }
+
+    .projectcontent {
+        row-gap: 7vw;
+    }
+
+    .project1 {
+        flex-direction: column;
+        row-gap: 1vw;
+        width: 80%;
+    }
+
+    .project2 {
+        flex-direction: column-reverse;
+        row-gap: 1vw;
+        width: 80%;
+    }
+
+    .title4 {
+        font-size: 8vw;
+        padding-top: 15vw;
+    }
+
+    .projectname {
+        font-size: 6vw;
+    }
+
+    .projectpara {
+        font-size: 3vw;
+        line-height: 4.3vw;
+    }
+
+    .freak {
+        height: 55vw;
+    }
+
+    .reyventure {
+        height: 55vw;
+    }
+
+    .purpleblur4 {
+        width: 140vw;
+        right: -60vw;
+        top: -10vw;
+    }
+
+    .cyanblur4 {
+        width: 140vw;
+        left: -60vw;
+        bottom: 0vw;
+    }
+
+    /* Watch Section  */
+
+    .watchsection {
+        flex-direction: column;
+    }
+
+    .myvideos {
+        flex-direction: column;
+        padding-bottom: 8vw;
+        padding-top: 2vw;
+        row-gap: 6vw;
+    }
+
+    .title5 {
+        font-size: 10vw;
+        padding-top: 8vw;
+        padding-bottom: 4vw;
+    }
+
+    iframe {
+        width: 60vw;
+        height: 35vw;
+    }
+
+    /* Contact Section  */
+
+    .contactsection {
+        bottom: 0vw;
+    }
+
+    .title6 {
+        font-size: 8vw;
+        padding-bottom: 6vw;
+        padding-top: 10vw;
+    }
+
+    .emailid {
+        font-size: 3vw;
+    }
+
+    .contactform {
+        width: 25vw;
+        height: 8vw;
+        border-radius: 30px;
+        font-size: 2.5vw;
+        margin-bottom: 10vw;
+    }
+
+    .purpleblur5 {
+        position: absolute;
+        width: 80vw;
+        height: auto;
+        left: -30vw;
+        bottom: -30vw;
+        opacity: 0.7;
+    }
+
+    .cyanblur5 {
+        position: absolute;
+        width: 80vw;
+        height: auto;
+        right: -30vw;
+        top: -35vw;
+        opacity: 0.7;
+    }
+
+    /* Footer  */
+
+    footer {
+        height: 20vw;
+    }
+
+    .footercontent {
+        font-size: 3vw;
+        font-weight: 450;
+        line-height: 4vw;
+    }
+
+}
+
+@media (min-width:375px) and (max-width:425px) {
+
+    /* Header  */
+
+    /* .menu {
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-color: #0B0B0B;
+        width: 100%;
+        height: 100%;
+        padding: 7rem 1.5rem 2.5rem 4rem;
+        display: flex;
+        flex-direction: column;
+        transition: left .4s;
+    }
+
+    .closebutton,
+    .toggle {
+        display: flex;
+    }
+
+    .navlogo {
+        display: none;
+    }
+
+    .navlink {
+        display: flex;
+        flex-direction: column;
+        column-gap: 1rem;
+        position: relative;
+        row-gap: 3rem;
+    }
+
+    #fourth {
+        padding-top: -50px;
+    } */
+
+    /* Hero Section */
+
+    .herobg {
+        height: 450px;
+        bottom: 180px;
+    }
+
+    .cyanblur1 {
+        width: 105vw;
+        top: -45vw;
+        left: -40vw;
+    }
+
+    .purpleblur1 {
+        width: 105vw;
+        right: -45vw;
+    }
+
+    .herobg .rey {
+        width: 85vw;
+    }
+
+    .herobg .Linkedin {
+        bottom: 45vw;
+        left: 65vw;
+        height: 19vw;
+    }
+
+    .herobg .Instagram {
+        bottom: 22vw;
+        left: 21vw;
+        height: 14vw;
+    }
+
+    .herobg .Facebook {
+        bottom: 2vw;
+        left: 73vw;
+        height: 19vw;
+    }
+
+    #one {
+        bottom: 55vw;
+        left: 17vw;
+        font-size: 7vw;
+    }
+
+    #two {
+        bottom: 48vw;
+        left: 22vw;
+        font-size: 5vw;
+    }
+
+    #three {
+        bottom: 41vw;
+        left: 38vw;
+        font-size: 5vw;
+    }
+
+    #four {
+        bottom: 41vw;
+        left: 64vw;
+        font-size: 5.5vw;
+    }
+
+    #five {
+        bottom: 34vw;
+        left: 71vw;
+        font-size: 4.6vw;
+    }
+
+    #six {
+        bottom: 26vw;
+        left: 77vw;
+        font-size: 6vw;
+    }
+
+    /* Timeline Section  */
+
+    .blur {
+        height: 450vw;
+    }
+
+    .purpleblur2 {
+        position: absolute;
+        width: 160vw;
+        height: auto;
+        top: 100vw;
+        left: -85vw;
+        opacity: 0.7;
+    }
+
+    .cyanblur2 {
+        position: relative;
+        width: 160vw;
+        height: auto;
+        right: -50vw;
+        top: 290vw;
+        opacity: 0.65;
+    }
+
+    .heropara {
+        font-size: 15px;
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+
+    .heroparaend {
+        font-size: 15px;
+        margin-left: 12%;
+        margin-right: 12%;
+        bottom: -23rem;
+    }
+
+    .timeline {
+        width: 80%;
+        top: 19rem;
+    }
+
+    .timeline ul {
+        right: -10vw;
+    }
+
+    .timeline ul li {
+        width: 80%;
+        float: none;
+        clear: none;
+        margin-bottom: 120px;
+        padding: 20px;
+        padding-right: 20px;
+    }
+
+    .timeline ul li .middlelineleft {
+        left: -10vw;
+        height: 167vh;
+    }
+
+    .timeline ul li:nth-child(odd) {
+        transform: translateX(-1.6rem);
+    }
+
+    .timeline ul li:nth-child(even) {
+        transform: translateX(-2.5rem);
+    }
+
+    .timeline ul li .circleright {
+        left: -13vw;
+        height: 25px;
+        width: 25px;
+    }
+
+    .timeline ul li .circleleft {
+        left: -12vw;
+        height: 25px;
+        width: 25px;
+    }
+
+    ul li .dateleft {
+        position: absolute;
+        top: -70px;
+        left: 0px;
+        width: 100px;
+        height: 30px;
+        border-radius: 15px;
+        padding-top: 5px;
+        font-size: 19px;
+    }
+
+    ul li .dateright {
+        position: absolute;
+        top: -70px;
+        left: 0px;
+        width: 100px;
+        height: 30px;
+        border-radius: 15px;
+        padding-top: 5px;
+        font-size: 19px;
+    }
+
+    .timeline ul li .sideline1right {
+        position: absolute;
+        left: -10vw;
+    }
+
+    .timeline ul li .sideline1left {
+        position: absolute;
+        left: -10vw;
+    }
+
+    .timeline ul li .sideline2right {
+        position: absolute;
+        left: 8vw;
+    }
+
+    .timeline ul li .sideline2left {
+        position: absolute;
+        left: 8vw;
+    }
+
+    .timeline ul li h3 {
+        font-size: 14px;
+    }
+
+    .timeline ul li p {
+        font-size: 13px;
+    }
+
+    /* Skill Section  */
+
+    .purpleblur3 {
+        position: absolute;
+        width: 180vw;
+        height: auto;
+        left: -100vw;
+        opacity: 0.7;
+    }
+
+    .skillsection {
+        bottom: -5rem;
+        height: 280vw;
+    }
+
+    .title2 {
+        font-size: 1.8rem;
+    }
+
+    .skillcontainer {
+        padding-top: 2rem;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2rem;
+    }
+
+    .portfolio {
+        width: 40vw;
+        height: 10vw;
+        font-size: 3.5vw;
+    }
+
+    .button {
+        padding-top: 10vw;
+    }
+
+    .skill1,
+    .skill2 {
+        height: 51vw;
+        width: 67vw;
+    }
+
+    /* Vision Section  */
+
+    .visionsection {
+        bottom: 6rem;
+    }
+
+    .visioncontent {
+        width: 65%;
+    }
+
+    .title3 {
+        font-size: 10vw;
+        padding-top: 8vw;
+        padding-bottom: 2vw;
+    }
+
+    .visionpara {
+        font-size: 2.7vw;
+        padding-bottom: 3.3vw;
+        line-height: 4vw;
+        position: relative;
+        top: -5vw;
+    }
+
+    .visionh3 {
+        font-size: 3vw;
+        padding-bottom: 2vw;
+        padding-top: 0.8vw;
+    }
+
+    .socialmediatheme {
+        column-gap: 1vw;
+        padding-bottom: 8vw;
+    }
+
+    .socialthemeicons1 {
+        height: 6.5vw;
+    }
+
+    .socialthemeicons2 {
+        height: 8vw;
+        bottom: 0.2vw;
+    }
+
+    .socialthemeicons3 {
+        height: 6.5vw;
+    }
+
+    .visiondecor1 {
+        height: 36vw;
+        right: -10vw;
+        top: -2vw;
+    }
+
+    .visiondecor2 {
+        height: 26vw;
+        left: -10vw;
+        top: 70vw;
+    }
+
+    .visiondecor3 {
+        height: 40vw;
+        right: -10vw;
+        bottom: -2vw;
+    }
+
+    /* Project Section  */
+
+    .projectsection {
+        height: 270vw;
+        bottom: 4vw;
+        bottom: 20vw;
+    }
+
+    .projectcontent {
+        row-gap: 7vw;
+    }
+
+    .project1 {
+        flex-direction: column;
+        row-gap: 1vw;
+        width: 80%;
+    }
+
+    .project2 {
+        flex-direction: column-reverse;
+        row-gap: 1vw;
+        width: 80%;
+    }
+
+    .title4 {
+        font-size: 8vw;
+        padding-top: 15vw;
+    }
+
+    .projectname {
+        font-size: 6vw;
+    }
+
+    .projectpara {
+        font-size: 3vw;
+        line-height: 4.3vw;
+    }
+
+    .freak {
+        height: 55vw;
+    }
+
+    .reyventure {
+        height: 55vw;
+    }
+
+    .purpleblur4 {
+        width: 140vw;
+        right: -60vw;
+        top: -10vw;
+    }
+
+    .cyanblur4 {
+        width: 140vw;
+        left: -60vw;
+        bottom: 0vw;
+    }
+
+    /* Watch Section  */
+
+    .watchsection {
+        flex-direction: column;
+        bottom: 20vw;
+    }
+
+    .myvideos {
+        flex-direction: column;
+        padding-bottom: 15vw;
+        padding-top: 2vw;
+        row-gap: 6vw;
+    }
+
+    .title5 {
+        font-size: 10vw;
+        padding-top: 15vw;
+        padding-bottom: 12vw;
+    }
+
+    iframe {
+        width: 60vw;
+        height: 35vw;
+        border-radius: 10px;
+    }
+
+    /* Contact Section  */
+
+    .contactsection {
+        bottom: 0vw;
+        height: 80vw;
+        position: relative;
+        bottom: 10vw;
+    }
+
+    .title6 {
+        font-size: 9vw;
+        padding-bottom: 6vw;
+        padding-top: 10vw;
+    }
+
+    .emailid {
+        font-size: 3vw;
+    }
+
+    .contactform {
+        width: 25vw;
+        height: 8vw;
+        border-radius: 30px;
+        font-size: 2.5vw;
+        margin-bottom: 10vw;
+    }
+
+    .purpleblur5 {
+        position: absolute;
+        width: 80vw;
+        height: auto;
+        left: -45vw;
+        align-self: center;
+        opacity: 0.7;
+    }
+
+    .cyanblur5 {
+        position: absolute;
+        width: 80vw;
+        height: auto;
+        right: -45vw;
+        align-self: center;
+        opacity: 0.7;
+    }
+
+    /* Footer  */
+
+    footer {
+        height: 20vw;
+    }
+
+    .footercontent {
+        font-size: 3vw;
+        font-weight: 450;
+        line-height: 4.5vw;
+    }
+
+}
+
+@media (min-width:320px) and (max-width:375px) {
+
+    /* Header  */
+
+    /* .menu {
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-color: #0B0B0B;
+        width: 100%;
+        height: 100%;
+        padding: 7rem 1.5rem 2.5rem 4rem;
+        display: flex;
+        flex-direction: column;
+        transition: left .4s;
+    }
+
+    .closebutton,
+    .toggle {
+        display: flex;
+    }
+
+    .navlogo {
+        display: none;
+    }
+
+    .navlink {
+        display: flex;
+        flex-direction: column;
+        column-gap: 1rem;
+        position: relative;
+        row-gap: 3rem;
+        font-size: 15px;
+        text-align: center;
+        left: 30vw;
+    }
+
+    #fourth {
+        padding-top: -50px;
+    } */
+
+    /* Hero Section */
+
+    .herobg {
+        height: 400px;
+        bottom: 180px;
+    }
+
+    .cyanblur1 {
+        width: 105vw;
+        top: -45vw;
+        left: -40vw;
+    }
+
+    .purpleblur1 {
+        width: 105vw;
+        right: -45vw;
+    }
+
+    .herobg .rey {
+        width: 85vw;
+    }
+
+    .herobg .Linkedin {
+        bottom: 45vw;
+        left: 65vw;
+        height: 19vw;
+    }
+
+    .herobg .Instagram {
+        bottom: 22vw;
+        left: 21vw;
+        height: 14vw;
+    }
+
+    .herobg .Facebook {
+        bottom: 2vw;
+        left: 73vw;
+        height: 19vw;
+    }
+
+    #one {
+        bottom: 55vw;
+        left: 17vw;
+        font-size: 7vw;
+    }
+
+    #two {
+        bottom: 48vw;
+        left: 22vw;
+        font-size: 5vw;
+    }
+
+    #three {
+        bottom: 41vw;
+        left: 38vw;
+        font-size: 5vw;
+    }
+
+    #four {
+        bottom: 41vw;
+        left: 64vw;
+        font-size: 5.5vw;
+    }
+
+    #five {
+        bottom: 34vw;
+        left: 71vw;
+        font-size: 4.6vw;
+    }
+
+    #six {
+        bottom: 26vw;
+        left: 77vw;
+        font-size: 6vw;
+    }
+
+    /* Timeline Section  */
+
+    .blur {
+        height: 450vw;
+    }
+
+    .purpleblur2 {
+        position: absolute;
+        width: 160vw;
+        height: auto;
+        top: 100vw;
+        left: -85vw;
+        opacity: 0.7;
+    }
+
+    .cyanblur2 {
+        position: relative;
+        width: 160vw;
+        height: auto;
+        right: -50vw;
+        top: 290vw;
+        opacity: 0.65;
+    }
+
+    .heropara {
+        font-size: 15px;
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+
+    .heroparaend {
+        font-size: 15px;
+        margin-left: 12%;
+        margin-right: 12%;
+        bottom: -23rem;
+    }
+
+    .timeline {
+        width: 80%;
+        top: 19rem;
+    }
+
+    .timeline ul {
+        right: -10.5vw;
+    }
+
+    .timeline ul li {
+        width: 80%;
+        float: none;
+        clear: none;
+        margin-bottom: 120px;
+        padding: 20px;
+        padding-right: 20px;
+    }
+
+    .timeline ul li .middlelineleft {
+        left: -10vw;
+        height: 143vh;
+    }
+
+    .timeline ul li:nth-child(odd) {
+        transform: translateX(-1.6rem);
+    }
+
+    .timeline ul li:nth-child(even) {
+        transform: translateX(-2.5rem);
+    }
+
+    .timeline ul li .circleright {
+        left: -13vw;
+        height: 25px;
+        width: 25px;
+    }
+
+    .timeline ul li .circleleft {
+        left: -12vw;
+        height: 25px;
+        width: 25px;
+    }
+
+    ul li .dateleft {
+        position: absolute;
+        top: -70px;
+        left: 0px;
+        width: 100px;
+        height: 30px;
+        border-radius: 15px;
+        padding-top: 5px;
+        font-size: 19px;
+    }
+
+    ul li .dateright {
+        position: absolute;
+        top: -70px;
+        left: 0px;
+        width: 100px;
+        height: 30px;
+        border-radius: 15px;
+        padding-top: 5px;
+        font-size: 19px;
+
+    }
+
+    .timeline ul li .sideline1right {
+        position: absolute;
+        left: -10vw;
+    }
+
+    .timeline ul li .sideline1left {
+        position: absolute;
+        left: -10vw;
+    }
+
+    .timeline ul li .sideline2right {
+        position: absolute;
+        left: 15vw;
+    }
+
+    .timeline ul li .sideline2left {
+        position: absolute;
+        left: 15vw;
+    }
+
+    .timeline ul li h3 {
+        font-size: 14px;
+    }
+
+    .timeline ul li p {
+        font-size: 13px;
+    }
+
+    /* Skill Section  */
+
+    .purpleblur3 {
+        position: absolute;
+        width: 180vw;
+        height: auto;
+        left: -85vw;
+        opacity: 0.7;
+    }
+
+    .skillsection {
+        bottom: -5rem;
+        height: 310vw;
+    }
+
+    .title2 {
+        font-size: 1.5rem;
+    }
+
+    .skillcontainer {
+        padding-top: 1.5rem;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2rem;
+    }
+
+    .portfolio {
+        width: 40vw;
+        height: 10vw;
+        font-size: 3.5vw;
+    }
+
+    .button {
+        padding-top: 10vw;
+    }
+
+    .skill1,
+    .skill2 {
+        height: 51vw;
+        width: 67vw;
+    }
+
+    /* Vision Section  */
+
+    .visionsection {
+        bottom: 6rem;
+    }
+
+    .visioncontent {
+        width: 65%;
+    }
+
+    .title3 {
+        font-size: 10vw;
+        padding-top: 8vw;
+        padding-bottom: 2vw;
+    }
+
+    .visionpara {
+        font-size: 2.7vw;
+        padding-bottom: 3.3vw;
+        line-height: 4vw;
+        position: relative;
+        top: -5vw;
+    }
+
+    .visionh3 {
+        font-size: 3vw;
+        padding-bottom: 2vw;
+        padding-top: 0.8vw;
+    }
+
+    .socialmediatheme {
+        column-gap: 1vw;
+        padding-bottom: 8vw;
+    }
+
+    .socialthemeicons1 {
+        height: 6.5vw;
+    }
+
+    .socialthemeicons2 {
+        height: 8vw;
+        bottom: 0.2vw;
+    }
+
+    .socialthemeicons3 {
+        height: 6.5vw;
+    }
+
+    .visiondecor1 {
+        height: 36vw;
+        right: -10vw;
+        top: -2vw;
+    }
+
+    .visiondecor2 {
+        height: 26vw;
+        left: -10vw;
+        top: 70vw;
+    }
+
+    .visiondecor3 {
+        height: 40vw;
+        right: -10vw;
+        bottom: -2vw;
+    }
+
+    /* Project Section  */
+
+    .projectsection {
+        height: 270vw;
+        bottom: 4vw;
+        bottom: 30vw;
+    }
+
+    .projectcontent {
+        row-gap: 7vw;
+    }
+
+    .project1 {
+        flex-direction: column;
+        row-gap: 1vw;
+        width: 80%;
+    }
+
+    .project2 {
+        flex-direction: column-reverse;
+        row-gap: 1vw;
+        width: 80%;
+    }
+
+    .title4 {
+        font-size: 8vw;
+        padding-top: 15vw;
+    }
+
+    .projectname {
+        font-size: 6vw;
+    }
+
+    .projectpara {
+        font-size: 3vw;
+        line-height: 4.3vw;
+    }
+
+    .freak {
+        height: 55vw;
+    }
+
+    .reyventure {
+        height: 55vw;
+    }
+
+    .purpleblur4 {
+        width: 140vw;
+        right: -60vw;
+        top: -10vw;
+    }
+
+    .cyanblur4 {
+        width: 140vw;
+        left: -60vw;
+        bottom: 0vw;
+    }
+
+    /* Watch Section  */
+
+    .watchsection {
+        flex-direction: column;
+        bottom: 20vw;
+    }
+
+    .myvideos {
+        flex-direction: column;
+        padding-bottom: 15vw;
+        padding-top: 2vw;
+        row-gap: 6vw;
+    }
+
+    .title5 {
+        font-size: 10vw;
+        padding-top: 15vw;
+        padding-bottom: 12vw;
+    }
+
+    iframe {
+        width: 60vw;
+        height: 35vw;
+        border-radius: 10px;
+    }
+
+    /* Contact Section  */
+
+    .contactsection {
+        bottom: 0vw;
+        height: 80vw;
+        position: relative;
+        bottom: 10vw;
+    }
+
+    .title6 {
+        font-size: 9vw;
+        padding-bottom: 6vw;
+        padding-top: 10vw;
+    }
+
+    .emailid {
+        font-size: 3vw;
+    }
+
+    .contactform {
+        width: 25vw;
+        height: 8vw;
+        border-radius: 30px;
+        font-size: 2.5vw;
+        margin-bottom: 10vw;
+    }
+
+    .purpleblur5 {
+        position: absolute;
+        width: 80vw;
+        height: auto;
+        left: -45vw;
+        align-self: center;
+        opacity: 0.7;
+    }
+
+    .cyanblur5 {
+        position: absolute;
+        width: 80vw;
+        height: auto;
+        right: -45vw;
+        align-self: center;
+        opacity: 0.7;
+    }
+
+    /* Footer  */
+
+    footer {
+        height: 20vw;
+    }
+
+    .footercontent {
+        font-size: 3vw;
+        font-weight: 450;
+        line-height: 4.5vw;
+    }
+
+}
+
+@media (max-width:320px) {
+
+    /* Hero Section */
+
+    .herobg {
+        height: 400px;
+        bottom: 180px;
+    }
+
+    .cyanblur1 {
+        width: 105vw;
+        top: -45vw;
+        left: -40vw;
+    }
+
+    .purpleblur1 {
+        width: 105vw;
+        right: -45vw;
+    }
+
+    .herobg .rey {
+        width: 85vw;
+    }
+
+    .herobg .Linkedin {
+        bottom: 45vw;
+        left: 65vw;
+        height: 19vw;
+    }
+
+    .herobg .Instagram {
+        bottom: 22vw;
+        left: 21vw;
+        height: 14vw;
+    }
+
+    .herobg .Facebook {
+        bottom: 2vw;
+        left: 73vw;
+        height: 19vw;
+    }
+
+    #one {
+        bottom: 55vw;
+        left: 17vw;
+        font-size: 7vw;
+    }
+
+    #two {
+        bottom: 48vw;
+        left: 22vw;
+        font-size: 5vw;
+    }
+
+    #three {
+        bottom: 41vw;
+        left: 38vw;
+        font-size: 5vw;
+    }
+
+    #four {
+        bottom: 41vw;
+        left: 64vw;
+        font-size: 5.5vw;
+    }
+
+    #five {
+        bottom: 34vw;
+        left: 71vw;
+        font-size: 4.6vw;
+    }
+
+    #six {
+        bottom: 26vw;
+        left: 77vw;
+        font-size: 6vw;
+    }
+
+    /* Timeline Section  */
+
+
+    .blur {
+        height: 450vw;
+    }
+
+    .purpleblur2 {
+        position: absolute;
+        width: 160vw;
+        height: auto;
+        top: 100vw;
+        left: -85vw;
+        opacity: 0.7;
+    }
+
+    .cyanblur2 {
+        position: relative;
+        width: 160vw;
+        height: auto;
+        right: -50vw;
+        top: 290vw;
+        opacity: 0.65;
+    }
+
+    .heropara {
+        font-size: 15px;
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+
+    .heroparaend {
+        font-size: 15px;
+        margin-left: 12%;
+        margin-right: 12%;
+        bottom: -23rem;
+    }
+
+    .timeline {
+        width: 80%;
+        top: 19rem;
+    }
+
+    /* .timeline ul{
+        padding-right: 20px;
+    } */
+
+    .timeline ul li {
+        width: 100%;
+        float: none;
+        clear: none;
+        margin-bottom: 120px;
+        padding: 20px;
+        padding-right: 10px;
+    }
+
+    .timeline ul li .middlelineleft {
+        left: -10vw;
+        height: 165vh;
+    }
+
+    .timeline ul li:nth-child(odd) {
+        transform: translateX(-1.6rem);
+    }
+
+    .timeline ul li:nth-child(even) {
+        transform: translateX(1rem);
+    }
+
+    .timeline ul li .circleright {
+        left: -13vw;
+        height: 25px;
+        width: 25px;
+    }
+
+    .timeline ul li .circleleft {
+        left: -12vw;
+        height: 25px;
+        width: 25px;
+    }
+
+    ul li .dateleft {
+        position: absolute;
+        top: -70px;
+        left: 0px;
+        width: 100px;
+        height: 30px;
+        border-radius: 15px;
+        padding-top: 5px;
+        font-size: 19px;
+    }
+
+    ul li .dateright {
+        position: absolute;
+        top: -70px;
+        left: 0px;
+        width: 100px;
+        height: 30px;
+        border-radius: 15px;
+        padding-top: 5px;
+        font-size: 19px;
+
+    }
+
+    .timeline ul li .sideline1right {
+        position: absolute;
+        left: -10vw;
+    }
+
+    .timeline ul li .sideline1left {
+        position: absolute;
+        left: -10vw;
+    }
+
+    .timeline ul li .sideline2right {
+        position: absolute;
+        left: 15vw;
+    }
+
+    .timeline ul li .sideline2left {
+        position: absolute;
+        left: 15vw;
+    }
+
+    .timeline ul li h3 {
+        font-size: 14px;
+    }
+
+    .timeline ul li p {
+        font-size: 13px;
+    }
+
+    /* Skill Section  */
+
+    .purpleblur3 {
+        position: absolute;
+        width: 180vw;
+        height: auto;
+        left: -85vw;
+        opacity: 0.7;
+    }
+
+    .skillsection {
+        bottom: -5rem;
+        height: 310vw;
+    }
+
+    .title2 {
+        font-size: 1.5rem;
+    }
+
+    .skillcontainer {
+        padding-top: 1.5rem;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2rem;
+    }
+
+    .portfolio {
+        width: 40vw;
+        height: 10vw;
+        font-size: 3.5vw;
+    }
+
+    .button {
+        padding-top: 10vw;
+    }
+
+    .skill1,
+    .skill2 {
+        height: 51vw;
+        width: 67vw;
+    }
+
+    /* Vision Section  */
+
+    .visionsection {
+        bottom: 6rem;
+    }
+
+    .visioncontent {
+        width: 65%;
+    }
+
+    .title3 {
+        font-size: 10vw;
+        padding-top: 8vw;
+        padding-bottom: 2vw;
+    }
+
+    .visionpara {
+        font-size: 2.7vw;
+        padding-bottom: 3.3vw;
+        line-height: 4vw;
+        position: relative;
+        top: -5vw;
+    }
+
+    .visionh3 {
+        font-size: 3vw;
+        padding-bottom: 2vw;
+        padding-top: 0.8vw;
+    }
+
+    .socialmediatheme {
+        column-gap: 1vw;
+        padding-bottom: 8vw;
+    }
+
+    .socialthemeicons1 {
+        height: 6.5vw;
+    }
+
+    .socialthemeicons2 {
+        height: 8vw;
+        bottom: 0.2vw;
+    }
+
+    .socialthemeicons3 {
+        height: 6.5vw;
+    }
+
+    .visiondecor1 {
+        height: 36vw;
+        right: -10vw;
+        top: -2vw;
+    }
+
+    .visiondecor2 {
+        height: 26vw;
+        left: -10vw;
+        top: 70vw;
+    }
+
+    .visiondecor3 {
+        height: 40vw;
+        right: -10vw;
+        bottom: -2vw;
+    }
+
+    /* Project Section  */
+
+    .projectsection {
+        height: 270vw;
+        bottom: 4vw;
+        bottom: 30vw;
+    }
+
+    .projectcontent {
+        row-gap: 7vw;
+    }
+
+    .project1 {
+        flex-direction: column;
+        row-gap: 1vw;
+        width: 80%;
+    }
+
+    .project2 {
+        flex-direction: column-reverse;
+        row-gap: 1vw;
+        width: 80%;
+    }
+
+    .title4 {
+        font-size: 8vw;
+        padding-top: 15vw;
+    }
+
+    .projectname {
+        font-size: 6vw;
+    }
+
+    .projectpara {
+        font-size: 3vw;
+        line-height: 4.3vw;
+    }
+
+    .freak {
+        height: 55vw;
+    }
+
+    .reyventure {
+        height: 55vw;
+    }
+
+    .purpleblur4 {
+        width: 140vw;
+        right: -60vw;
+        top: -10vw;
+    }
+
+    .cyanblur4 {
+        width: 140vw;
+        left: -60vw;
+        bottom: 0vw;
+    }
+
+    /* Watch Section  */
+
+    .watchsection {
+        flex-direction: column;
+        bottom: 20vw;
+    }
+
+    .myvideos {
+        flex-direction: column;
+        padding-bottom: 15vw;
+        padding-top: 2vw;
+        row-gap: 6vw;
+    }
+
+    .title5 {
+        font-size: 10vw;
+        padding-top: 15vw;
+        padding-bottom: 12vw;
+    }
+
+    iframe {
+        width: 60vw;
+        height: 35vw;
+        border-radius: 10px;
+    }
+
+    /* Contact Section  */
+
+    .contactsection {
+        bottom: 0vw;
+        height: 80vw;
+        position: relative;
+        bottom: 10vw;
+    }
+
+    .title6 {
+        font-size: 9vw;
+        padding-bottom: 6vw;
+        padding-top: 10vw;
+    }
+
+    .emailid {
+        font-size: 3vw;
+    }
+
+    .contactform {
+        width: 25vw;
+        height: 8vw;
+        border-radius: 30px;
+        font-size: 2.5vw;
+        margin-bottom: 10vw;
+    }
+
+    .purpleblur5 {
+        position: absolute;
+        width: 80vw;
+        height: auto;
+        left: -45vw;
+        align-self: center;
+        opacity: 0.7;
+    }
+
+    .cyanblur5 {
+        position: absolute;
+        width: 80vw;
+        height: auto;
+        right: -45vw;
+        align-self: center;
+        opacity: 0.7;
+    }
+
+    /* Footer  */
+
+    footer {
+        height: 20vw;
+    }
+
+    .footercontent {
+        font-size: 3vw;
+        font-weight: 450;
+        line-height: 4.5vw;
+    }
+
+}
